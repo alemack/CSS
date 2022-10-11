@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.main-text {
+    color:red;
+    text-align: center;
+    /* в 1.2 больше, чем дефолтное*/
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 8px;
+    line-height: 50px;
+    cursor: nesw-resize;
+}

@@ -1,0 +1,38 @@
+/* 
+если расскоментировал это, то нужно законментить #first и #second , а также блок первый в body
+body {
+    
+    background-color: #3e63b3;
+    color: #4c6e55;
+    background-image: url('https://data.pixiz.com/output/user/frame/preview/400x400/4/4/1/9/2739144_1967e.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    color: #4c6e55;
+    background: #3e63b3 url('https://data.pixiz.com/output/user/frame/preview/400x400/4/4/1/9/2739144_1967e.jpg')
+    no-repeat center top;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+#first {
+    /* 
+    background-color: #3e63b3;
+    color: #4c6e55;
+    background-image: url('https://data.pixiz.com/output/user/frame/preview/400x400/4/4/1/9/2739144_1967e.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+    color: #4c6e55;
+    background: #3e63b3 url('https://data.pixiz.com/output/user/frame/preview/400x400/4/4/1/9/2739144_1967e.jpg')
+    no-repeat center top;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    height: 2000px;
+}

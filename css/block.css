@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    background: blue;
+    /* vh лучше в высоте, а в ширине %*/
+    height: 200px;
+    width: 200px;
+    border-bottom: 7px solid silver;
+    border-left: 7px dotted silver;
+    border-right: 7px dashed silver;
+    border-top-style:solid;
+
+    border-radius: 15px 50%;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 20px 50px;
+
+    /* при таком условии мы всё приравниваем к блоку*/
+    display: block;
+}

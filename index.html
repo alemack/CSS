@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- второй вариант подключения, 
+    но он не идеальный, потому что css и html в одном файле  -->
+  <!--  <style>
+        b {
+            color:aqua
+        }
+    </style>
+    -->
+</head>
+<body>
+    <!-- не очень хороший вариант, 
+    только если вы хотите добавить один-два стиля -->
+    <!-- style="color:red" -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima blanditiis impedit? 
+        Doloremque, quam quisquam! Eum <b>commodi</b> repellendus recusandae deleniti minima molestias. 
+        Odio veniam molestiae <b>repellendus</b> exercitationem! Necessitatibus, dolorem molestias.</p>
+    <p class="second-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima blanditiis impedit? 
+        Doloremque, quam quisquam! Eum <b class="main-text">commodi</b> repellendus <i class="main-text">recusandae</i> deleniti minima molestias. 
+        Odio veniam molestiae <b class="main-text">repellendus</b> exercitationem! Necessitatibus, dolorem molestias.</p>
+        <!-- id может быть один на странице с таким именем -->
+    <p id="text-in-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima blanditiis impedit? 
+        Doloremque, quam quisquam! Eum <b>commodi</b> repellendus recusandae deleniti minima molestias. 
+        Odio veniam molestiae <b>repellendus</b> exercitationem! Necessitatibus, dolorem molestias.</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima blanditiis impedit? 
+            Doloremque, quam quisquam! Eum <b>commodi</b> repellendus recusandae deleniti minima molestias. 
+            Odio veniam molestiae <i>repellendus</i> exercitationem! Necessitatibus, dolorem molestias.</p>
+    </div> <br>
+
+    <hr>
+    <p>нажми</p>
+    <a href="#" class="main-link">Ссылка</a>
+    <p class="main-link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Alias adipisci dolorem quasi magnam. Alias temporibus, natus non fugiat unde in saepe perferendis! Sapiente, 
+        autem quos minus velit dolores facilis quae.</p>
+
+    <input type="text" placeholder="Введите текст">
+    <input type="text" placeholder="Введите текст" disabled>
+
+    <p class="text">Simple</p>
+    <p class="text" title="some text 123456"></p>
+
+    <div id="some_id">Some text</div>
+    
+
+    <p class="text">Simple</p>
+
+</body>
+</html>

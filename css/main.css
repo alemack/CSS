@@ -1,0 +1,86 @@
+body {
+    color:blueviolet;
+}
+
+.main-text {
+    color:red;
+}
+
+.second-text {
+    color:chartreuse;
+}
+
+#text-in-p {
+    color:aqua;
+}
+
+div p b, div i {
+    color:green;
+}
+
+.main-link {
+    color:red;
+    text-decoration: overline;
+}
+
+/*псевдоклассы */
+.main-link:hover {
+    color:blue;
+    text-decoration:underline;
+    text-decoration-color:darkorange;
+    cursor: pointer;
+}
+
+.main-link:active {
+    text-decoration: line-through;
+}
+
+/* сработает при переходе по ссылке*/
+.main-link:visited {
+    color: grey;
+}
+
+/*
+input:enabled { color:blueviolet;}
+*/
+input {color:blue}
+/*когда навели внутрь текстового поля*/
+input:focus {color:red}
+
+p.text:empty {
+    color:blue;
+}
+
+p.text:not(:empty) {
+    color:gray;
+}
+
+/* ПСЕВДОЭЛЕМЕНТЫ*/
+#some_id::after {
+    content: '123';
+    color: red;
+}
+
+p.text:not(:empty)::after {
+    content: 'sOME';
+}
+
+p.text:empty::after {
+    content: attr(title);
+}
+
+p.main-link::first-letter {
+    color:green;
+}
+
+p.main-link::first-line {
+    color:darkslateblue;
+}
+
+p:first-of-type {
+    text-decoration: underline;
+}
+
+p:last-of-type {
+    text-decoration: underline;
+}
